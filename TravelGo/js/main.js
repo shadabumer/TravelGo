@@ -31,10 +31,5 @@ M.Materialbox.init(mb, {});
 //Scrollspy
 const ss = document.querySelectorAll('.scrollspy');
 M.ScrollSpy.init(ss, {
-    fullWidth: true;
+    fullWidth: true
 });
-
-//Carousel articles
-$('.carousel.carousel-slider').carousel({
-    fullWidth: true;
-  });
